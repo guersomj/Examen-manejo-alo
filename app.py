@@ -124,3 +124,12 @@ for i, pregunta in enumerate(st.session_state.preguntas_actuales, start=1):
         pregunta["opciones"],
         key=f"pregunta_{i}"
     )
+if st.button("✅ Calificar examen"):
+    aciertos = 0
+
+    for i, pregunta in enumerate(st.session_state.preguntas_actuales, start=1):
+        respuesta_usuario = st.session_state.get(f"pregunta_{i}")
+        if respuesta_usuario == pregunta["correcta"]:
+            aciertos += 1
+
+    st.success(f"Obtuviste {aciertos} de {len(st.session_state.preguntas_actuales)} aciertos.")
