@@ -199,4 +199,104 @@ preguntas = [
         ],
         "correcta": "Con ambas manos",
     }, 
+    {
+        "pregunta": "¿Está permitido manejar en estado de ebriedad o bajo influjo de drogas?",
+        "opciones": [
+            "Sí, si es poca cantidad",
+            "Sólo de noche",
+            "No",
+            "Sólo en zona rural",
+        ],
+        "correcta": "No",
+    },
+    {
+        "pregunta": "¿Puede transportarse un mayor número de personas que el señalado en la tarjeta de circulación?",
+        "opciones": [
+            "Sí, en trayectos cortos",
+            "Sí, si son menores",
+            "No",
+            "Sólo con permiso verbal",
+        ],
+        "correcta": "No",
+    },
+    {
+        "pregunta": "Si viaja un menor cuyo peso no sea mayor de 20 kg, debe ir:",
+        "opciones": [
+            "En brazos del acompañante",
+            "En asiento especial para niños con cinturón",
+            "En asiento delantero",
+            "De pie en la parte trasera",
+        ],
+        "correcta": "En asiento especial para niños con cinturón",
+    },
+    {
+        "pregunta": "Si escucha u observa un vehículo de emergencia, debe:",
+        "opciones": [
+            "Acelerar",
+            "Mantenerse al centro",
+            "Disminuir velocidad y alinearse a la derecha",
+            "Rebasarlo",
+        ],
+        "correcta": "Disminuir velocidad y alinearse a la derecha",
+    },
+    {
+        "pregunta": "En caso de accidente con lesionados, usted debe:",
+        "opciones": [
+            "Mover de inmediato a los heridos",
+            "Permanecer en el lugar, evitar mover a la persona y solicitar emergencia",
+            "Retirarse para evitar problemas",
+            "Esperar a que otro llame",
+        ],
+        "correcta": "Permanecer en el lugar, evitar mover a la persona y solicitar emergencia",
+    },
+    {
+        "pregunta": "La circulación de los vehículos, por regla general, será:",
+        "opciones": [
+            "Por el lado izquierdo",
+            "Por el lado derecho",
+            "Por el centro",
+            "En cualquier carril disponible",
+        ],
+        "correcta": "Por el lado derecho",
+    },
+    {
+        "pregunta": "En glorietas sin semáforo, debe cederse el paso a:",
+        "opciones": [
+            "Los peatones únicamente",
+            "Los vehículos que quieran entrar",
+            "Los vehículos que ya circulan en la glorieta",
+            "Las motocicletas nada más",
+        ],
+        "correcta": "Los vehículos que ya circulan en la glorieta",
+    },
+    {
+        "pregunta": "En un crucero de ferrocarril, ¿quién tiene preferencia?",
+        "opciones": [
+            "El vehículo más grande",
+            "Los motociclistas",
+            "El ferrocarril",
+            "El que llegue primero",
+        ],
+        "correcta": "El ferrocarril",
+    },
+    {
+        "pregunta": "¿A qué distancia mínima del riel más cercano debe hacer alto al aproximarse a un cruce ferroviario?",
+        "opciones": [
+            "2 metros",
+            "3 metros",
+            "5 metros",
+            "10 metros",
+        ],
+        "correcta": "5 metros",
+    },
+    {
+        "pregunta": "Rebasar por la derecha sólo se permite, entre otros casos, cuando:",
+        "opciones": [
+            "Siempre que haya prisa",
+            "El vehículo de enfrente va a dar vuelta a la izquierda",
+            "Sea de noche",
+            "Haya tráfico lento solamente",
+        ],
+        "correcta": "El vehículo de enfrente va a dar vuelta a la izquierda",
+    },
 ]
