@@ -107,7 +107,7 @@ preguntas = [
 ]
 
 if "preguntas_actuales" not in st.session_state:
-    st.session_state.preguntas_actuales = random.sample(preguntas, len(preguntas))
+    st.session_state.preguntas_actuales = random.sample(preguntas, 10)
 
 st.title("🚗 Examen de Manejo Alo")
 st.write("Prueba inicial de 10 preguntas.")
