@@ -22,10 +22,20 @@ for i, pregunta in enumerate(st.session_state.preguntas_actuales, start=1):
     )
 if st.button("✅ Calificar examen"):
     aciertos = 0
+    total = len(st.session_state.preguntas_actuales)
+
+    st.markdown("## Resultado")
 
     for i, pregunta in enumerate(st.session_state.preguntas_actuales, start=1):
         respuesta_usuario = st.session_state.get(f"pregunta_{i}")
-        if respuesta_usuario == pregunta["correcta"]:
-            aciertos += 1
+        correcta = pregunta["correcta"]
 
-    st.success(f"Obtuviste {aciertos} de {len(st.session_state.preguntas_actuales)} aciertos.")
+        if respuesta_usuario == correcta:
+            aciertos += 1
+            st.success(f"Pregunta {i}: Correcta")
+        else:
+            st.error(f"Pregunta {i}: Incorrecta")
+            st.write(f"**Tu respuesta:** {respuesta_usuario}")
+            st.write(f"**Respuesta correcta:** {correcta}")
+
+    st.success(f"Obtuviste {aciertos} de {total} aciertos.")
