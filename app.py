@@ -12,7 +12,7 @@ st.write("Prueba inicial de 10 preguntas.")
 st.write("Más adelante meteremos las 100 completas y las escogeremos aleatoriamente.")
 
 if st.button("🔄 Reiniciar preguntas"):
-    st.session_state.preguntas_actuales = random.sample(preguntas, len(preguntas))
+    st.session_state.preguntas_actuales = random.sample(preguntas, 10)
     st.rerun()
 
 for i, pregunta in enumerate(st.session_state.preguntas_actuales, start=1):
